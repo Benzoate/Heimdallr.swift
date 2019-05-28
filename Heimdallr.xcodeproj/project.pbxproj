@@ -778,6 +778,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = DC545DB81A89F0F10051A575;
@@ -1090,7 +1091,7 @@
 				DYLIB_CURRENT_VERSION = 1;
 				INFOPLIST_FILE = "Heimdallr/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
@@ -1105,7 +1106,7 @@
 				DYLIB_CURRENT_VERSION = 1;
 				INFOPLIST_FILE = "Heimdallr/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
