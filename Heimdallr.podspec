@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name = 'Heimdallr'
-  spec.version = '3.6.1'
+  spec.version = '3.6.2'
   spec.authors = {
     'trivago' => 'info@trivago.de'
   }
@@ -23,7 +23,7 @@ Pod::Spec.new do |spec|
   spec.default_subspec = 'Core'
 
   spec.subspec 'Core' do |subspec|
-    subspec.dependency 'Result', '~> 3.0'
+    subspec.dependency 'Result', '~> 4.0'
     subspec.framework = 'Foundation'
 
     subspec.source_files = 'Heimdallr/Core/*.swift'
